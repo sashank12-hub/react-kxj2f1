@@ -1,24 +1,19 @@
-
-{ "products":
-  [
-    {
-      "name":"blue shoe",
-      "cost": 6,
-      "image":
-        "https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
-    },
+{
+  "products": [
     {
       "name": "blue shoe",
       "cost": 7,
-      "image":
-        "https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
     },
     {
-      "name": "blue shoe",
+      "name": "bag",
       "cost": 8,
-      "image":
-        "https://images-na.ssl-images-amazon.com/images/I/61utX8kBDlL._UL1100_.jpg"
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61Un-YSbPZL._SY450_.jpg"
+    },
+    {
+      "name": "watch",
+      "cost": 6,
+      "image": "https://n4.sdlcdn.com/imgs/i/z/i/HMTe-HM-9072-Metal-Analog-SDL494827480-1-db8fc.jpg"
     }
-  ]}
-  
-  
+  ]
+}

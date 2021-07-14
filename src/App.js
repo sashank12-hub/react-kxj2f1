@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './Card';
-import data from './data';
+import Card from './card';
+import data from './data.json';
 import { url } from './api';
 import styles from './app.module.css';
 import { InputLabel, Select, MenuItem } from '@material-ui/core';
@@ -34,7 +34,7 @@ const App = () => {
         </select>
       </div>
       <div className={styles.wrapper}>
-        {data.map((item, index) => {
+        {data.products.map((item, index) => {
           return (
             <Card
               key={index}

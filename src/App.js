@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './card';
+import Card from './Card';
 import data from './data.json';
 import { url } from './api';
 import styles from './app.module.css';
